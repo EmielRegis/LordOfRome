@@ -97,8 +97,7 @@ public final class Empire extends DrawableObject
 	/** Private constructor of the empire.*/	
 	private Empire()
 	{
-		super();	
-		
+		super();		
 	}
 	
 	/** Returns one and the same instance of the empire.
