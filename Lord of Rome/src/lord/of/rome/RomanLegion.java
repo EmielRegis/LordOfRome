@@ -2,7 +2,9 @@ package lord.of.rome;
 
 import java.awt.Toolkit;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+
 
 
 import javax.swing.ImageIcon;
@@ -160,7 +162,6 @@ public final class RomanLegion extends Fraction implements Armed
 		{
 			int x = p.getXPosition();
 			int y = p.getYPosition();
-			
 			
 			MapPoint occ = Empire.getInstance().POINTS.get(String.valueOf(x) + "-" + String.valueOf(y));
 			while(occ.getOccupancy() != MapPoint.Occupancy.FREE)
